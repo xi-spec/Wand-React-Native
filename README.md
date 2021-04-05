@@ -5,3 +5,5 @@ Wand Ecommerce App done with:
 - Mongoose
 - Express
 - Passport
+- Typescript
+- Jest
