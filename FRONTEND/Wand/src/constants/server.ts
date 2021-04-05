@@ -1,5 +1,3 @@
-const SKYLAPIP = '192.168.0.39';
-const HOUSEIP = '192.168.0.13';
 const HOST = 'localhost';
 const PORT = '9000';
 
