@@ -1,0 +1,379 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a LoggedProfile component When is render Then is rendered correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "paddingTop": 60,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#2E3192",
+          "borderRadius": 50,
+          "height": 100,
+          "justifyContent": "center",
+          "width": 100,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontFamily": "MontserratMedium",
+            "fontSize": 22,
+          }
+        }
+      >
+        Xi
+      </Text>
+    </View>
+    <Text
+      style={
+        Object {
+          "fontFamily": "RalewayRegular",
+          "fontSize": 18,
+          "paddingTop": 30,
+        }
+      }
+    >
+       
+      Welcome Xi
+    </Text>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "paddingVertical": 15,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text />
+          </View>
+        </View>
+      </View>
+      <Text>
+         
+           
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "borderRadius": 10,
+          "borderWidth": 0,
+          "elevation": 5,
+          "flexDirection": "row",
+          "height": 60,
+          "justifyContent": "space-around",
+          "marginTop": 10,
+          "marginVertical": 30,
+          "opacity": 1,
+          "shadowColor": "grey",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.15,
+          "shadowRadius": 3.84,
+          "width": "80%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontFamily": "MontserratMedium",
+            "fontSize": 14,
+            "paddingTop": 3,
+          }
+        }
+      >
+        Edit Profile
+      </Text>
+      <View
+        style={
+          Object {
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "marginLeft": 50,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "borderRadius": 10,
+          "borderWidth": 0,
+          "elevation": 5,
+          "flexDirection": "row",
+          "height": 60,
+          "justifyContent": "space-around",
+          "marginTop": 10,
+          "marginVertical": 30,
+          "opacity": 1,
+          "shadowColor": "grey",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.15,
+          "shadowRadius": 3.84,
+          "width": "80%",
+        }
+      }
+      testID="navigation"
+    >
+      <Text
+        style={
+          Object {
+            "fontFamily": "MontserratMedium",
+            "fontSize": 14,
+            "paddingTop": 3,
+          }
+        }
+      >
+        Shopping address
+      </Text>
+      <View
+        style={
+          Object {
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "borderRadius": 10,
+          "borderWidth": 0,
+          "elevation": 5,
+          "flexDirection": "row",
+          "height": 60,
+          "justifyContent": "space-around",
+          "marginTop": 10,
+          "marginVertical": 30,
+          "opacity": 1,
+          "shadowColor": "grey",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.15,
+          "shadowRadius": 3.84,
+          "width": "80%",
+        }
+      }
+      testID="navigation"
+    >
+      <Text
+        style={
+          Object {
+            "fontFamily": "MontserratMedium",
+            "fontSize": 14,
+            "paddingTop": 3,
+          }
+        }
+      >
+        Payment method
+      </Text>
+      <View
+        style={
+          Object {
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "borderRadius": 10,
+          "borderWidth": 0,
+          "elevation": 5,
+          "flexDirection": "row",
+          "height": 60,
+          "justifyContent": "space-around",
+          "marginTop": 10,
+          "marginVertical": 30,
+          "opacity": 1,
+          "shadowColor": "grey",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.15,
+          "shadowRadius": 3.84,
+          "width": "80%",
+        }
+      }
+      testID="navigation"
+    >
+      <Text
+        style={
+          Object {
+            "fontFamily": "MontserratMedium",
+            "fontSize": 14,
+            "paddingTop": 3,
+          }
+        }
+      >
+        Order history
+      </Text>
+      <View
+        style={
+          Object {
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

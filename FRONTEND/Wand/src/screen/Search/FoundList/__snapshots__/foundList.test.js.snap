@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a foundList component When is rendered Then is matched to snapshop 1`] = `
+<RCTScrollView
+  bounces={false}
+  data={
+    Array [
+      Object {
+        "_id": "2",
+        "cost": Object {
+          "currency": "euro",
+          "value": 2,
+        },
+        "images": Object {
+          "alls": Array [
+            "url",
+          ],
+          "cover": "url",
+        },
+        "name": "be happy 1",
+      },
+    ]
+  }
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={Array []}
+  style={
+    Object {
+      "margin": 10,
+    }
+  }
+  updateCellsBatchingPeriod={50}
+  viewabilityConfigCallbackPairs={Array []}
+  windowSize={21}
+>
+  <View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "margin": 5,
+              "opacity": 1,
+            }
+          }
+          testID="foundListImage"
+        >
+          <Image
+            source={
+              Object {
+                "uri": "url",
+              }
+            }
+            style={
+              Object {
+                "borderRadius": 5,
+                "height": 300,
+                "justifyContent": "center",
+                "marginBottom": 10,
+                "width": 190,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "fontFamily": "RalewayLight",
+                "fontSize": 14,
+                "marginBottom": 5,
+              }
+            }
+          >
+            be happy 1
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#F3603F",
+                "fontFamily": "MontserratRegular",
+                "fontSize": 14,
+                "marginBottom": 10,
+              }
+            }
+          >
+            2.00 euro
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

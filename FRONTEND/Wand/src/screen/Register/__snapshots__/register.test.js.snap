@@ -1,0 +1,749 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a Register component When have textInput Error Then will render a wrong message 1`] = `
+<RCTScrollView
+  collapsable={false}
+  keyboardShouldPersistTaps="handled"
+  onGestureHandlerEvent={[Function]}
+  onGestureHandlerStateChange={[Function]}
+  style={
+    Object {
+      "marginLeft": 50,
+      "marginRight": 50,
+      "paddingTop": 50,
+    }
+  }
+>
+  <View>
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#2E3192",
+            "fontSize": 36,
+            "marginBottom": 5,
+          }
+        }
+      >
+        Hi!
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#979797",
+            "fontSize": 18,
+          }
+        }
+      >
+        Create a new account
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "height": "70%",
+          "width": "100%",
+        }
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        keyboardType="email-address"
+        onChangeText={[Function]}
+        onEndEditing={[Function]}
+        placeholder="Name"
+        placeholderTextColor="#979797"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "borderBottomColor": "#979797",
+            "borderBottomWidth": 1,
+            "color": "#2E3192",
+            "fontSize": 18,
+            "height": 50,
+            "marginBottom": 10,
+            "marginTop": 10,
+            "width": 300,
+          }
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+          }
+        }
+      >
+        <View
+          forwardedRef={[Function]}
+          style={
+            Object {
+              "opacity": 0,
+              "transform": Array [
+                Object {
+                  "translateX": -100,
+                },
+              ],
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#F3603F",
+                "fontSize": 12,
+              }
+            }
+          >
+            Name must be at least 2 characters long
+          </Text>
+        </View>
+      </View>
+      <TextInput
+        allowFontScaling={true}
+        autoCapitalize="none"
+        keyboardType="email-address"
+        onChangeText={[Function]}
+        onEndEditing={[Function]}
+        placeholder="Email Address"
+        placeholderTextColor="#979797"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "borderBottomColor": "#979797",
+            "borderBottomWidth": 1,
+            "color": "#2E3192",
+            "fontSize": 18,
+            "height": 50,
+            "marginBottom": 10,
+            "marginTop": 10,
+            "width": 300,
+          }
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+          }
+        }
+      >
+        <View
+          forwardedRef={[Function]}
+          style={
+            Object {
+              "opacity": 0,
+              "transform": Array [
+                Object {
+                  "translateX": -100,
+                },
+              ],
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#F3603F",
+                "fontSize": 12,
+              }
+            }
+          >
+            Email is not valid
+          </Text>
+        </View>
+      </View>
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        onEndEditing={[Function]}
+        placeholder="Password"
+        placeholderTextColor="#979797"
+        rejectResponderTermination={true}
+        secureTextEntry={true}
+        style={
+          Object {
+            "borderBottomColor": "#979797",
+            "borderBottomWidth": 1,
+            "color": "#2E3192",
+            "fontSize": 18,
+            "height": 50,
+            "marginBottom": 10,
+            "marginTop": 10,
+            "width": 300,
+          }
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+          }
+        }
+      >
+        <View
+          forwardedRef={[Function]}
+          style={
+            Object {
+              "opacity": 0,
+              "transform": Array [
+                Object {
+                  "translateX": -100,
+                },
+              ],
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#F3603F",
+                "fontSize": 12,
+              }
+            }
+          >
+            Password must be at least 8 characters long
+          </Text>
+        </View>
+      </View>
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        onEndEditing={[Function]}
+        placeholder="Confirm password"
+        placeholderTextColor="#979797"
+        rejectResponderTermination={true}
+        secureTextEntry={true}
+        style={
+          Object {
+            "borderBottomColor": "#979797",
+            "borderBottomWidth": 1,
+            "color": "#2E3192",
+            "fontSize": 18,
+            "height": 50,
+            "marginBottom": 10,
+            "marginTop": 10,
+            "width": 300,
+          }
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+          }
+        }
+      >
+        <View
+          forwardedRef={[Function]}
+          style={
+            Object {
+              "opacity": 0,
+              "transform": Array [
+                Object {
+                  "translateX": -100,
+                },
+              ],
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#F3603F",
+                "fontSize": 12,
+              }
+            }
+          >
+            Both passwords must be the same 
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "marginTop": 30,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#2E3192",
+              "borderRadius": 5,
+              "height": 50,
+              "justifyContent": "center",
+              "marginBottom": 18,
+              "opacity": 1,
+              "width": "100%",
+            }
+          }
+          testID="register"
+        >
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontSize": 20,
+              }
+            }
+          >
+            REGISTER
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`Given a Register component When is render And user.isLogged is false Then is mathced to snapshot 1`] = `
+<RCTScrollView
+  collapsable={false}
+  keyboardShouldPersistTaps="handled"
+  onGestureHandlerEvent={[Function]}
+  onGestureHandlerStateChange={[Function]}
+  style={
+    Object {
+      "marginLeft": 50,
+      "marginRight": 50,
+      "paddingTop": 50,
+    }
+  }
+>
+  <View>
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#2E3192",
+            "fontSize": 36,
+            "marginBottom": 5,
+          }
+        }
+      >
+        Hi!
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#979797",
+            "fontSize": 18,
+          }
+        }
+      >
+        Create a new account
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "height": "70%",
+          "width": "100%",
+        }
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        keyboardType="email-address"
+        onChangeText={[Function]}
+        onEndEditing={[Function]}
+        placeholder="Name"
+        placeholderTextColor="#979797"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "borderBottomColor": "#979797",
+            "borderBottomWidth": 1,
+            "color": "#2E3192",
+            "fontSize": 18,
+            "height": 50,
+            "marginBottom": 10,
+            "marginTop": 10,
+            "width": 300,
+          }
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+          }
+        }
+      />
+      <TextInput
+        allowFontScaling={true}
+        autoCapitalize="none"
+        keyboardType="email-address"
+        onChangeText={[Function]}
+        onEndEditing={[Function]}
+        placeholder="Email Address"
+        placeholderTextColor="#979797"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "borderBottomColor": "#979797",
+            "borderBottomWidth": 1,
+            "color": "#2E3192",
+            "fontSize": 18,
+            "height": 50,
+            "marginBottom": 10,
+            "marginTop": 10,
+            "width": 300,
+          }
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+          }
+        }
+      />
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        onEndEditing={[Function]}
+        placeholder="Password"
+        placeholderTextColor="#979797"
+        rejectResponderTermination={true}
+        secureTextEntry={true}
+        style={
+          Object {
+            "borderBottomColor": "#979797",
+            "borderBottomWidth": 1,
+            "color": "#2E3192",
+            "fontSize": 18,
+            "height": 50,
+            "marginBottom": 10,
+            "marginTop": 10,
+            "width": 300,
+          }
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+          }
+        }
+      />
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        onEndEditing={[Function]}
+        placeholder="Confirm password"
+        placeholderTextColor="#979797"
+        rejectResponderTermination={true}
+        secureTextEntry={true}
+        style={
+          Object {
+            "borderBottomColor": "#979797",
+            "borderBottomWidth": 1,
+            "color": "#2E3192",
+            "fontSize": 18,
+            "height": 50,
+            "marginBottom": 10,
+            "marginTop": 10,
+            "width": 300,
+          }
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "marginTop": 30,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#2E3192",
+              "borderRadius": 5,
+              "height": 50,
+              "justifyContent": "center",
+              "marginBottom": 18,
+              "opacity": 1,
+              "width": "100%",
+            }
+          }
+          testID="register"
+        >
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontSize": 20,
+              }
+            }
+          >
+            REGISTER
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`Given a Register component When some textInput is typing Then her onChange function will invoked 1`] = `
+<RCTScrollView
+  collapsable={false}
+  keyboardShouldPersistTaps="handled"
+  onGestureHandlerEvent={[Function]}
+  onGestureHandlerStateChange={[Function]}
+  style={
+    Object {
+      "marginLeft": 50,
+      "marginRight": 50,
+      "paddingTop": 50,
+    }
+  }
+>
+  <View>
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#2E3192",
+            "fontSize": 36,
+            "marginBottom": 5,
+          }
+        }
+      >
+        Hi!
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#979797",
+            "fontSize": 18,
+          }
+        }
+      >
+        Create a new account
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "height": "70%",
+          "width": "100%",
+        }
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        keyboardType="email-address"
+        onChangeText={[Function]}
+        onEndEditing={[Function]}
+        placeholder="Name"
+        placeholderTextColor="#979797"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "borderBottomColor": "#979797",
+            "borderBottomWidth": 1,
+            "color": "#2E3192",
+            "fontSize": 18,
+            "height": 50,
+            "marginBottom": 10,
+            "marginTop": 10,
+            "width": 300,
+          }
+        }
+        underlineColorAndroid="transparent"
+        value="HELLO"
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+          }
+        }
+      />
+      <TextInput
+        allowFontScaling={true}
+        autoCapitalize="none"
+        keyboardType="email-address"
+        onChangeText={[Function]}
+        onEndEditing={[Function]}
+        placeholder="Email Address"
+        placeholderTextColor="#979797"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "borderBottomColor": "#979797",
+            "borderBottomWidth": 1,
+            "color": "#2E3192",
+            "fontSize": 18,
+            "height": 50,
+            "marginBottom": 10,
+            "marginTop": 10,
+            "width": 300,
+          }
+        }
+        underlineColorAndroid="transparent"
+        value="HELLO"
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+          }
+        }
+      />
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        onEndEditing={[Function]}
+        placeholder="Password"
+        placeholderTextColor="#979797"
+        rejectResponderTermination={true}
+        secureTextEntry={true}
+        style={
+          Object {
+            "borderBottomColor": "#979797",
+            "borderBottomWidth": 1,
+            "color": "#2E3192",
+            "fontSize": 18,
+            "height": 50,
+            "marginBottom": 10,
+            "marginTop": 10,
+            "width": 300,
+          }
+        }
+        underlineColorAndroid="transparent"
+        value="HELLO"
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+          }
+        }
+      />
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        onEndEditing={[Function]}
+        placeholder="Confirm password"
+        placeholderTextColor="#979797"
+        rejectResponderTermination={true}
+        secureTextEntry={true}
+        style={
+          Object {
+            "borderBottomColor": "#979797",
+            "borderBottomWidth": 1,
+            "color": "#2E3192",
+            "fontSize": 18,
+            "height": 50,
+            "marginBottom": 10,
+            "marginTop": 10,
+            "width": 300,
+          }
+        }
+        underlineColorAndroid="transparent"
+        value="HELLO"
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "marginTop": 30,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#2E3192",
+              "borderRadius": 5,
+              "height": 50,
+              "justifyContent": "center",
+              "marginBottom": 18,
+              "opacity": 1,
+              "width": "100%",
+            }
+          }
+          testID="register"
+        >
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontSize": 20,
+              }
+            }
+          >
+            REGISTER
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

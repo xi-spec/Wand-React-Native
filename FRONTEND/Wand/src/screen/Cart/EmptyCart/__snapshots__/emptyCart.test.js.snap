@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a EmptyCart component When is rendered  Then is matched to snapshop 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "paddingTop": 266.8,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://trello-attachments.s3.amazonaws.com/603be1b68ce9c654d30ae543/60506d7b3b22568450a0dc85/e2f00d68e8c7e38709c459cd55d470ad/finall3-e1604082541825-400x400.jpg",
+      }
+    }
+    style={
+      Object {
+        "borderRadius": 50,
+        "height": 100,
+        "width": 100,
+      }
+    }
+  />
+  <Text
+    style={
+      Object {
+        "fontFamily": "RalewayRegular",
+        "fontSize": 14,
+        "marginHorizontal": 20,
+        "paddingVertical": 20,
+      }
+    }
+  >
+    YOUR CART IS EMPTY
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontFamily": "RalewayRegular",
+        "fontSize": 14,
+        "marginHorizontal": 20,
+        "paddingVertical": 20,
+      }
+    }
+  >
+    Check if there any products in your wishlist and snatch them up before they're gone
+  </Text>
+  <View
+    style={
+      Object {
+        "backgroundColor": "white",
+        "bottom": 266.8,
+        "height": 80,
+        "position": "absolute",
+        "width": "90%",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#2E3192",
+          "borderRadius": 5,
+          "height": 50,
+          "justifyContent": "center",
+          "marginVertical": 10,
+          "opacity": 1,
+          "paddingHorizontal": 10,
+          "width": "100%",
+        }
+      }
+      testID="shopNow"
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontFamily": "MontserratRegular",
+            "fontSize": 18,
+          }
+        }
+      >
+        SHOP NOW
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "height": 50,
+          "justifyContent": "center",
+          "marginVertical": 10,
+          "opacity": 1,
+          "paddingHorizontal": 10,
+          "width": "100%",
+        }
+      }
+      testID="favourite"
+    >
+      <Text
+        style={
+          Object {
+            "color": "black",
+            "fontFamily": "MontserratRegular",
+            "fontSize": 18,
+          }
+        }
+      >
+        VIEW WISHLIST
+      </Text>
+    </View>
+  </View>
+</View>
+`;

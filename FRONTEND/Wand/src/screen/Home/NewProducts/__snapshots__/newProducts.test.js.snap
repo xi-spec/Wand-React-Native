@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a NewProducts component When is invoked Then it is renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "margin": 10,
+      "paddingBottom": 50,
+      "paddingTop": 30,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontFamily": "RalewayRegular",
+        "fontSize": 18,
+        "margin": 10,
+      }
+    }
+  >
+    New arrivals
+  </Text>
+  <RCTScrollView
+    bounces={false}
+    horizontal={true}
+    showsHorizontalScrollIndicator={false}
+  >
+    <View>
+      <View>
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "marginLeft": 5,
+              "marginRight": 5,
+              "opacity": 1,
+            }
+          }
+          testID="newProduts"
+        >
+          <Image
+            source={
+              Object {
+                "uri": "2",
+              }
+            }
+            style={
+              Object {
+                "borderRadius": 5,
+                "height": 250,
+                "justifyContent": "center",
+                "width": 170,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "fontFamily": "RalewayLight",
+                "fontSize": 14,
+              }
+            }
+          >
+            a
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#F3603F",
+                "fontFamily": "MontserratRegular",
+                "fontSize": 14,
+              }
+            }
+          >
+            1.00 e
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

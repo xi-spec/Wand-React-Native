@@ -1,0 +1,423 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a Favourite component When is invoked Then will rendered correclly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "margin": 10,
+    }
+  }
+>
+  <RCTScrollView
+    bounces={false}
+    data={
+      Array [
+        Object {
+          "_id": 1,
+          "cost": Object {
+            "currency": "euro",
+            "value": 1,
+          },
+          "images": Object {
+            "alls": Array [
+              "firstImageUrl",
+            ],
+          },
+          "name": "ring",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    showsVerticalScrollIndicator={false}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "white",
+              "elevation": 5,
+              "height": 200,
+              "justifyContent": "center",
+              "marginTop": 10,
+              "shadowColor": "grey",
+              "shadowOffset": Object {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.15,
+              "shadowRadius": 3.84,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "width": "45%",
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "margin": 5,
+                  "opacity": 1,
+                }
+              }
+              testID="favourite"
+            >
+              <Image
+                source={
+                  Object {
+                    "uri": "firstImageUrl",
+                  }
+                }
+                style={
+                  Object {
+                    "borderRadius": 5,
+                    "height": 150,
+                    "justifyContent": "center",
+                    "width": 100,
+                  }
+                }
+              />
+              <View
+                style={
+                  Object {
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "fontFamily": "RalewayRegular",
+                      "fontSize": 18,
+                      "marginBottom": 5,
+                      "paddingTop": 5,
+                    }
+                  }
+                >
+                  ring
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "fontFamily": "RalewayExtraLight",
+                      "fontSize": 14,
+                      "paddingTop": 5,
+                    }
+                  }
+                >
+                   What a Nice Day!
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "paddingLeft": 20,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                    "paddingBottom": 45,
+                    "paddingLeft": 90,
+                  }
+                }
+                testID="remove"
+              >
+                <View
+                  style={
+                    Object {
+                      "overflow": "hidden",
+                    }
+                  }
+                >
+                  <View>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "transparent",
+                          "justifyContent": "center",
+                        }
+                      }
+                    >
+                      <Text />
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "color": "#F3603F",
+                    "fontFamily": "MontserratRegular",
+                    "fontSize": 18,
+                    "marginLeft": 50,
+                    "paddingBottom": 15,
+                  }
+                }
+              >
+                1.00 euro
+              </Text>
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "backgroundColor": "#2E3192",
+                    "borderRadius": 5,
+                    "height": 35,
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "width": 120,
+                  }
+                }
+                testID="add"
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "white",
+                      "fontFamily": "MontserratRegular",
+                      "fontSize": 14,
+                    }
+                  }
+                >
+                  ADD TO CART
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginHorizontal": 5,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontFamily": "MontserratRegular",
+          "fontSize": 18,
+        }
+      }
+    >
+      1 items
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontFamily": "MontserratRegular",
+          "fontSize": 18,
+        }
+      }
+    >
+      1.00 euros
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Given a Favourite component When is invoked with empty user.favourite  Then will rendered correclly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "paddingTop": 266.8,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://trello-attachments.s3.amazonaws.com/603be1b68ce9c654d30ae543/60506d7b3b22568450a0dc85/9d436ab3753190846db49e3ce1cf6950/final1-1024x1024.jpg",
+      }
+    }
+    style={
+      Object {
+        "borderRadius": 50,
+        "height": 100,
+        "width": 100,
+      }
+    }
+  />
+  <Text
+    style={
+      Object {
+        "fontFamily": "RalewayRegular",
+        "fontSize": 14,
+        "marginHorizontal": 25,
+        "paddingVertical": 20,
+      }
+    }
+  >
+    YOUR WISHLIST IS EMPTY
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontFamily": "RalewayRegular",
+        "fontSize": 14,
+        "marginHorizontal": 25,
+        "paddingVertical": 20,
+      }
+    }
+  >
+    Check if there any products in your basket and snatch them up before they're gone
+  </Text>
+  <View
+    style={
+      Object {
+        "backgroundColor": "white",
+        "bottom": 266.8,
+        "height": 80,
+        "position": "absolute",
+        "width": "90%",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#2E3192",
+          "borderRadius": 5,
+          "height": 50,
+          "justifyContent": "center",
+          "marginVertical": 10,
+          "opacity": 1,
+          "paddingHorizontal": 10,
+          "width": "100%",
+        }
+      }
+      testID="shopNow"
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontFamily": "MontserratRegular",
+            "fontSize": 18,
+          }
+        }
+      >
+        SHOP NOW
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "height": 50,
+          "justifyContent": "center",
+          "marginVertical": 10,
+          "opacity": 1,
+          "paddingHorizontal": 10,
+          "width": "100%",
+        }
+      }
+      testID="viewCart"
+    >
+      <Text
+        style={
+          Object {
+            "color": "black",
+            "fontFamily": "MontserratRegular",
+            "fontSize": 18,
+          }
+        }
+      >
+        VIEW CART
+      </Text>
+    </View>
+  </View>
+</View>
+`;

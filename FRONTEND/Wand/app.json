@@ -1,0 +1,13 @@
+{
+  "name": "Wand",
+  "displayName": "Wand",
+  "expo": {
+    "name": "Wand",
+    "slug": "Wand",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+    
+  }
+}

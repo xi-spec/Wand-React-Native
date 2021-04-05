@@ -1,0 +1,216 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a Login component When is rendered And user.isLogged is false Then is matched to snapshot 1`] = `
+<RCTScrollView
+  style={
+    Object {
+      "marginLeft": 50,
+      "marginRight": 50,
+      "paddingTop": 50,
+    }
+  }
+>
+  <View>
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#2E3192",
+            "fontSize": 36,
+            "marginBottom": 5,
+          }
+        }
+      >
+        Welcome!
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#979797",
+            "fontSize": 18,
+          }
+        }
+      >
+        Sign in to continue
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingTop": 50,
+        }
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        autoCapitalize="none"
+        onChangeText={[Function]}
+        placeholder="Email"
+        placeholderTextColor="#979797"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "borderBottomColor": "#979797",
+            "borderBottomWidth": 1,
+            "color": "#2E3192",
+            "fontSize": 18,
+            "height": 50,
+            "marginBottom": 30,
+            "marginTop": 20,
+            "width": 300,
+          }
+        }
+        testID="emailInput"
+        underlineColorAndroid="transparent"
+        value="ho@la.com"
+      />
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        placeholder="Password"
+        placeholderTextColor="#979797"
+        rejectResponderTermination={true}
+        secureTextEntry={true}
+        style={
+          Object {
+            "borderBottomColor": "#979797",
+            "borderBottomWidth": 1,
+            "color": "#2E3192",
+            "fontSize": 18,
+            "height": 50,
+            "marginBottom": 30,
+            "marginTop": 20,
+            "width": 300,
+          }
+        }
+        testID="passwordInput"
+        underlineColorAndroid="transparent"
+        value=""
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "marginTop": 70,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2E3192",
+            "borderRadius": 5,
+            "height": 50,
+            "justifyContent": "center",
+            "marginBottom": 18,
+            "opacity": 1,
+            "width": 250,
+          }
+        }
+        testID="login"
+      >
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 20,
+            }
+          }
+        >
+          LOGIN
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "paddingTop": 20,
+        }
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "borderBottomColor": "#E6E6E6",
+            "borderBottomWidth": 1,
+            "marginLeft": 5,
+            "marginRight": 5,
+            "width": 150,
+          }
+        }
+        underlineColorAndroid="transparent"
+      />
+      <Text
+        style={
+          Object {
+            "color": "#979797",
+            "top": 7,
+          }
+        }
+      >
+        o
+      </Text>
+      <TextInput
+        allowFontScaling={true}
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "borderBottomColor": "#E6E6E6",
+            "borderBottomWidth": 1,
+            "marginLeft": 5,
+            "marginRight": 5,
+            "width": 150,
+          }
+        }
+        underlineColorAndroid="transparent"
+      />
+    </View>
+    <View
+      accessible={true}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "opacity": 1,
+          "paddingTop": 50,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://assets.stickpng.com/images/580b57fcd9996e24bc43c516.png",
+          }
+        }
+        style={
+          Object {
+            "height": 50,
+            "width": 50,
+          }
+        }
+      />
+    </View>
+  </View>
+</RCTScrollView>
+`;

@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a Welcome component When is invoked Then it is renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    accessibilityIgnoresInvertColors={true}
+    style={
+      Object {
+        "flex": 1,
+        "height": "100%",
+        "resizeMode": "cover",
+        "width": "100%",
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": "https://trello-attachments.s3.amazonaws.com/603be1b68ce9c654d30ae543/6045f407c8709551d44f44e2/87f38de716a88d59cfe99595f6a9bd49/Olive_Klein_Amber_Agate_8.jpg",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          Object {
+            "height": "100%",
+            "width": "100%",
+          },
+          undefined,
+        ]
+      }
+    />
+    <View
+      style={
+        Object {
+          "flex": 2,
+          "paddingLeft": 100,
+          "paddingTop": 330,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontFamily": "RalewaySemiBold",
+            "fontSize": 50,
+          }
+        }
+      >
+        Wand
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontFamily": "MontserratMedium",
+            "fontSize": 20,
+            "marginRight": 50,
+            "paddingTop": 20,
+          }
+        }
+      >
+        Three young asian girls in Spain founded WAND in 2020 for design and jewelry, which is the short form 
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontFamily": "MontserratMedium",
+            "fontSize": 20,
+            "marginRight": 50,
+            "paddingTop": 20,
+          }
+        }
+      >
+          “What A Nice Day”.
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 3,
+          "paddingTop": 50,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2E3192",
+            "borderRadius": 5,
+            "height": 50,
+            "justifyContent": "center",
+            "marginBottom": 20,
+            "opacity": 1,
+            "width": 250,
+          }
+        }
+        testID="login"
+      >
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 20,
+            }
+          }
+        >
+          LOGIN
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "borderColor": "white",
+            "borderRadius": 5,
+            "borderStyle": "solid",
+            "borderWidth": 2,
+            "height": 50,
+            "justifyContent": "center",
+            "marginBottom": 20,
+            "opacity": 1,
+            "width": 250,
+          }
+        }
+        testID="signUp"
+      >
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 20,
+            }
+          }
+        >
+          SIGNUP
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="home"
+      >
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 15,
+              "textDecorationLine": "underline",
+            }
+          }
+        >
+          Maybe later
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,309 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a Search component When is rendered Then is matched to snapshop 1`] = `
+<View
+  style={
+    Object {
+      "height": "100%",
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 10,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "borderBottomWidth": 1,
+            "borderColor": "#86939e",
+            "flexDirection": "row",
+            "transform": Array [
+              Object {
+                "translateX": 0,
+              },
+            ],
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "height": 40,
+              "justifyContent": "center",
+              "marginVertical": 4,
+              "paddingRight": 4,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "transparent",
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <Text />
+              </View>
+            </View>
+          </View>
+        </View>
+        <TextInput
+          allowFontScaling={true}
+          autoFocus={true}
+          clearButtonMode="always"
+          editable={true}
+          onChangeText={[Function]}
+          placeholder="What are you searching for?"
+          placeholderTextColor="#86939e"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#242424",
+              "flex": 1,
+              "fontFamily": "MontserratRegular",
+              "fontSize": 18,
+              "minHeight": 40,
+            }
+          }
+          testID="searchInput"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#ff190c",
+            "fontSize": 12,
+            "margin": 5,
+          }
+        }
+      />
+    </View>
+  </View>
+  <RCTScrollView
+    bounces={false}
+    data={Array []}
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "margin": 10,
+      }
+    }
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View />
+  </RCTScrollView>
+</View>
+`;
+
+exports[`Given a Search component When is rendered and notFound prop is true Then <NotFound/> component is  matched to snapshop 1`] = `
+<View
+  style={
+    Object {
+      "height": "100%",
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 10,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "borderBottomWidth": 1,
+            "borderColor": "#86939e",
+            "flexDirection": "row",
+            "transform": Array [
+              Object {
+                "translateX": 0,
+              },
+            ],
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "height": 40,
+              "justifyContent": "center",
+              "marginVertical": 4,
+              "paddingRight": 4,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "transparent",
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "grey",
+                        "fontSize": 24,
+                      },
+                      Object {
+                        "backgroundColor": "transparent",
+                      },
+                      Object {
+                        "fontFamily": "evilicons",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                  testID="iconIcon"
+                >
+                  
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <TextInput
+          allowFontScaling={true}
+          autoFocus={true}
+          clearButtonMode="always"
+          editable={true}
+          onChangeText={[Function]}
+          placeholder="What are you searching for?"
+          placeholderTextColor="#86939e"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#242424",
+              "flex": 1,
+              "fontFamily": "MontserratRegular",
+              "fontSize": 18,
+              "minHeight": 40,
+            }
+          }
+          testID="searchInput"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#ff190c",
+            "fontSize": 12,
+            "margin": 5,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "paddingTop": 266.8,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": "https://trello-attachments.s3.amazonaws.com/603be1b68ce9c654d30ae543/60506d7b3b22568450a0dc85/1907e2c9a4ad2ba8986ad1530a402b84/final2-400x400.jpg",
+        }
+      }
+      style={
+        Object {
+          "borderRadius": 50,
+          "height": 100,
+          "width": 100,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "fontFamily": "MontserratRegular",
+          "fontSize": 14,
+          "marginHorizontal": 20,
+          "paddingVertical": 20,
+        }
+      }
+    >
+      Sorry,we could not find any products
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontFamily": "MontserratRegular",
+          "fontSize": 14,
+          "marginHorizontal": 20,
+          "paddingVertical": 20,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;

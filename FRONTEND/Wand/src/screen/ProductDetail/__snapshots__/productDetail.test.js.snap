@@ -1,0 +1,2021 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a ProductDetail component When  heart icon is pressed and user is  logged Then actions.addProductToFavourite is invoked 1`] = `undefined`;
+
+exports[`Given a ProductDetail component When  heart icon is pressed and user is  logged and favourite is false Then tree will match to snapshp 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "height": 1133.8999999999999,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "flex": 1,
+            "position": "relative",
+          },
+          undefined,
+        ]
+      }
+    >
+      <RCTScrollView
+        activeDotStyle={
+          Object {
+            "backgroundColor": "#F3603F",
+          }
+        }
+        automaticallyAdjustContentInsets={false}
+        autoplay={false}
+        autoplayDirection={false}
+        autoplayTimeout={2.5}
+        bounces={false}
+        contentContainerStyle={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+            },
+            undefined,
+          ]
+        }
+        contentOffset={
+          Object {
+            "y": 0,
+          }
+        }
+        disableNextButton={false}
+        disablePrevButton={false}
+        dotStyle={
+          Object {
+            "backgroundColor": "#E6E6E6",
+            "opacity": 0.4,
+          }
+        }
+        horizontal={false}
+        index={0}
+        loadMinimal={true}
+        loadMinimalSize={1}
+        loop={true}
+        onIndexChanged={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        paginationStyle={
+          Object {
+            "bottom": 6,
+          }
+        }
+        pagingEnabled={true}
+        removeClippedSubviews={false}
+        scrollsToTop={false}
+        showsButtons={false}
+        showsHorizontalScrollIndicator={false}
+        showsPagination={true}
+        showsVerticalScrollIndicator={false}
+      >
+        <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 1334,
+                  "width": 750,
+                },
+                Object {
+                  "backgroundColor": "transparent",
+                },
+              ]
+            }
+          >
+            <View
+              accessibilityIgnoresInvertColors={true}
+              style={
+                Object {
+                  "height": 1133.8999999999999,
+                  "width": 750,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "uri": "url",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "height": 1133.8999999999999,
+                      "width": 750,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFE",
+                    "borderRadius": 50,
+                    "height": 35,
+                    "justifyContent": "center",
+                    "marginLeft": 660,
+                    "marginTop": 1000.5,
+                    "opacity": 0.8,
+                    "width": 35,
+                  }
+                }
+                testID="heart"
+              >
+                <View
+                  style={
+                    Object {
+                      "overflow": "hidden",
+                    }
+                  }
+                >
+                  <View>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "transparent",
+                          "justifyContent": "center",
+                        }
+                      }
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "black",
+                              "fontSize": 20,
+                            },
+                            Object {
+                              "backgroundColor": "transparent",
+                            },
+                            Object {
+                              "fontFamily": "FontAwesome",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            Object {},
+                          ]
+                        }
+                        testID="iconIcon"
+                      >
+                        
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </RCTScrollView>
+    </View>
+  </View>
+  <
+    snapPoints={
+      Array [
+        "15%",
+        "55%",
+      ]
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "marginHorizontal": 30,
+          }
+        }
+      >
+        <Modal
+          animationType="fade"
+          hardwareAccelerated={false}
+          transparent={true}
+          visible={true}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#F3603F",
+                "paddingTop": 60,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "paddingBottom": 20,
+                }
+              }
+            >
+              "rings" has been added to your wishlist.
+            </Text>
+          </View>
+        </Modal>
+        <Modal
+          animationType="fade"
+          hardwareAccelerated={false}
+          transparent={true}
+          visible={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#F3603F",
+                "paddingTop": 60,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "paddingBottom": 20,
+                }
+              }
+            >
+              "rings" has been added to your cart.
+            </Text>
+          </View>
+        </Modal>
+        <View
+          style={
+            Object {
+              "marginVertical": 25,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontFamily": "MontserratMedium",
+                  "fontSize": 18,
+                }
+              }
+            >
+              rings
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "#63B798",
+                    "borderRadius": 10,
+                    "color": "white",
+                    "overflow": "hidden",
+                    "textAlign": "center",
+                    "width": 120,
+                  }
+                }
+              >
+                1 in stock
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#F3603F",
+                  "fontFamily": "MontserratRegular",
+                  "fontSize": 22,
+                  "paddingTop": 15,
+                }
+              }
+            >
+              2.00 euro
+            </Text>
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#2E3192",
+                  "borderRadius": 5,
+                  "fontFamily": "MontserratRegular",
+                  "height": 40,
+                  "justifyContent": "center",
+                  "marginTop": 10,
+                  "opacity": 1,
+                  "width": 120,
+                }
+              }
+              testID="add"
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontFamily": "MontserratMedium",
+                    "fontSize": 18,
+                  }
+                }
+              >
+                Add
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "marginTop": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#7C7C7C",
+                "fontFamily": "RalewayRegular",
+                "fontSize": 14,
+                "letterSpacing": 0.5,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "borderBottomColor": "#E6E6E6",
+                "borderBottomWidth": 1,
+                "marginVertical": 18,
+                "width": "100%",
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#7C7C7C",
+                "fontFamily": "RalewayRegular",
+                "fontSize": 14,
+                "letterSpacing": 0.5,
+              }
+            }
+          >
+            What a Nice Day!
+          </Text>
+          <View
+            style={
+              Object {
+                "borderBottomColor": "#E6E6E6",
+                "borderBottomWidth": 1,
+                "marginVertical": 18,
+                "width": "100%",
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "fontFamily": "MontserratMedium",
+                "fontSize": 18,
+                "paddingBottom": 5,
+              }
+            }
+          >
+            Product Detail:
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#7C7C7C",
+                "fontFamily": "RalewayRegular",
+                "fontSize": 14,
+                "letterSpacing": 0.5,
+              }
+            }
+          >
+            Materials: undefined
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#7C7C7C",
+                "fontFamily": "RalewayRegular",
+                "fontSize": 14,
+                "letterSpacing": 0.5,
+              }
+            }
+          >
+            Measurements: undefined
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#7C7C7C",
+                "fontFamily": "RalewayRegular",
+                "fontSize": 14,
+                "letterSpacing": 0.5,
+              }
+            }
+          >
+            Weight: 2g
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#7C7C7C",
+                "fontFamily": "RalewayRegular",
+                "fontSize": 14,
+                "letterSpacing": 0.5,
+              }
+            }
+          >
+            Packaging: undefined
+          </Text>
+          <View
+            style={
+              Object {
+                "borderBottomColor": "#E6E6E6",
+                "borderBottomWidth": 1,
+                "marginVertical": 18,
+                "width": "100%",
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </>
+</View>
+`;
+
+exports[`Given a ProductDetail component When  heart icon is pressed and user is not logged Then navigation.navigate is invoked 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "Profile",
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`Given a ProductDetail component When images.alls is a empty array Then render is  to match snapshot 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "height": 1133.8999999999999,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "flex": 1,
+            "position": "relative",
+          },
+          undefined,
+        ]
+      }
+    >
+      <RCTScrollView
+        activeDotStyle={
+          Object {
+            "backgroundColor": "#F3603F",
+          }
+        }
+        automaticallyAdjustContentInsets={false}
+        autoplay={false}
+        autoplayDirection={false}
+        autoplayTimeout={2.5}
+        bounces={false}
+        contentContainerStyle={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+            },
+            undefined,
+          ]
+        }
+        contentOffset={
+          Object {
+            "y": 0,
+          }
+        }
+        disableNextButton={false}
+        disablePrevButton={false}
+        dotStyle={
+          Object {
+            "backgroundColor": "#E6E6E6",
+            "opacity": 0.4,
+          }
+        }
+        horizontal={false}
+        index={0}
+        loadMinimal={true}
+        loadMinimalSize={1}
+        loop={true}
+        onIndexChanged={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        paginationStyle={
+          Object {
+            "bottom": 6,
+          }
+        }
+        pagingEnabled={true}
+        removeClippedSubviews={false}
+        scrollsToTop={false}
+        showsButtons={false}
+        showsHorizontalScrollIndicator={false}
+        showsPagination={true}
+        showsVerticalScrollIndicator={false}
+      >
+        <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 1334,
+                  "width": 750,
+                },
+                Object {
+                  "backgroundColor": "transparent",
+                },
+              ]
+            }
+          >
+            <View
+              accessibilityIgnoresInvertColors={true}
+              style={
+                Object {
+                  "height": 1133.8999999999999,
+                  "width": 750,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "uri": "url",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "height": 1133.8999999999999,
+                      "width": 750,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFE",
+                    "borderRadius": 50,
+                    "height": 35,
+                    "justifyContent": "center",
+                    "marginLeft": 660,
+                    "marginTop": 1000.5,
+                    "opacity": 0.8,
+                    "width": 35,
+                  }
+                }
+                testID="heart"
+              >
+                <View
+                  style={
+                    Object {
+                      "overflow": "hidden",
+                    }
+                  }
+                >
+                  <View>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "transparent",
+                          "justifyContent": "center",
+                        }
+                      }
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "black",
+                              "fontSize": 20,
+                            },
+                            Object {
+                              "backgroundColor": "transparent",
+                            },
+                            Object {
+                              "fontFamily": "FontAwesome",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            Object {},
+                          ]
+                        }
+                        testID="iconIcon"
+                      >
+                        
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </RCTScrollView>
+    </View>
+  </View>
+  <
+    snapPoints={
+      Array [
+        "15%",
+        "55%",
+      ]
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "marginHorizontal": 30,
+          }
+        }
+      >
+        <Modal
+          animationType="fade"
+          hardwareAccelerated={false}
+          transparent={true}
+          visible={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#F3603F",
+                "paddingTop": 60,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "paddingBottom": 20,
+                }
+              }
+            >
+              "rings" has been added to your wishlist.
+            </Text>
+          </View>
+        </Modal>
+        <Modal
+          animationType="fade"
+          hardwareAccelerated={false}
+          transparent={true}
+          visible={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#F3603F",
+                "paddingTop": 60,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "paddingBottom": 20,
+                }
+              }
+            >
+              "rings" has been added to your cart.
+            </Text>
+          </View>
+        </Modal>
+        <View
+          style={
+            Object {
+              "marginVertical": 25,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontFamily": "MontserratMedium",
+                  "fontSize": 18,
+                }
+              }
+            >
+              rings
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "#63B798",
+                    "borderRadius": 10,
+                    "color": "white",
+                    "overflow": "hidden",
+                    "textAlign": "center",
+                    "width": 120,
+                  }
+                }
+              >
+                1 in stock
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#F3603F",
+                  "fontFamily": "MontserratRegular",
+                  "fontSize": 22,
+                  "paddingTop": 15,
+                }
+              }
+            >
+              2.00 euro
+            </Text>
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#2E3192",
+                  "borderRadius": 5,
+                  "fontFamily": "MontserratRegular",
+                  "height": 40,
+                  "justifyContent": "center",
+                  "marginTop": 10,
+                  "opacity": 1,
+                  "width": 120,
+                }
+              }
+              testID="add"
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontFamily": "MontserratMedium",
+                    "fontSize": 18,
+                  }
+                }
+              >
+                Add
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "marginTop": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#7C7C7C",
+                "fontFamily": "RalewayRegular",
+                "fontSize": 14,
+                "letterSpacing": 0.5,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "borderBottomColor": "#E6E6E6",
+                "borderBottomWidth": 1,
+                "marginVertical": 18,
+                "width": "100%",
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#7C7C7C",
+                "fontFamily": "RalewayRegular",
+                "fontSize": 14,
+                "letterSpacing": 0.5,
+              }
+            }
+          >
+            What a Nice Day!
+          </Text>
+          <View
+            style={
+              Object {
+                "borderBottomColor": "#E6E6E6",
+                "borderBottomWidth": 1,
+                "marginVertical": 18,
+                "width": "100%",
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "fontFamily": "MontserratMedium",
+                "fontSize": 18,
+                "paddingBottom": 5,
+              }
+            }
+          >
+            Product Detail:
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#7C7C7C",
+                "fontFamily": "RalewayRegular",
+                "fontSize": 14,
+                "letterSpacing": 0.5,
+              }
+            }
+          >
+            Materials: undefined
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#7C7C7C",
+                "fontFamily": "RalewayRegular",
+                "fontSize": 14,
+                "letterSpacing": 0.5,
+              }
+            }
+          >
+            Measurements: undefined
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#7C7C7C",
+                "fontFamily": "RalewayRegular",
+                "fontSize": 14,
+                "letterSpacing": 0.5,
+              }
+            }
+          >
+            Weight: 2g
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#7C7C7C",
+                "fontFamily": "RalewayRegular",
+                "fontSize": 14,
+                "letterSpacing": 0.5,
+              }
+            }
+          >
+            Packaging: undefined
+          </Text>
+          <View
+            style={
+              Object {
+                "borderBottomColor": "#E6E6E6",
+                "borderBottomWidth": 1,
+                "marginVertical": 18,
+                "width": "100%",
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </>
+</View>
+`;
+
+exports[`Given a ProductDetail component When is rendered Then render is  matched snapshot 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "height": 1133.8999999999999,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "flex": 1,
+            "position": "relative",
+          },
+          undefined,
+        ]
+      }
+    >
+      <RCTScrollView
+        activeDotStyle={
+          Object {
+            "backgroundColor": "#F3603F",
+          }
+        }
+        automaticallyAdjustContentInsets={false}
+        autoplay={false}
+        autoplayDirection={false}
+        autoplayTimeout={2.5}
+        bounces={false}
+        contentContainerStyle={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+            },
+            undefined,
+          ]
+        }
+        contentOffset={
+          Object {
+            "y": 0,
+          }
+        }
+        disableNextButton={false}
+        disablePrevButton={false}
+        dotStyle={
+          Object {
+            "backgroundColor": "#E6E6E6",
+            "opacity": 0.4,
+          }
+        }
+        horizontal={false}
+        index={0}
+        loadMinimal={true}
+        loadMinimalSize={1}
+        loop={true}
+        onIndexChanged={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        paginationStyle={
+          Object {
+            "bottom": 6,
+          }
+        }
+        pagingEnabled={true}
+        removeClippedSubviews={false}
+        scrollsToTop={false}
+        showsButtons={false}
+        showsHorizontalScrollIndicator={false}
+        showsPagination={true}
+        showsVerticalScrollIndicator={false}
+      >
+        <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 1334,
+                  "width": 750,
+                },
+                Object {
+                  "backgroundColor": "transparent",
+                },
+              ]
+            }
+          >
+            <View
+              accessibilityIgnoresInvertColors={true}
+              style={
+                Object {
+                  "height": 1133.8999999999999,
+                  "width": 750,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "uri": "mockimageUrl",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "height": 1133.8999999999999,
+                      "width": 750,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFE",
+                    "borderRadius": 50,
+                    "height": 35,
+                    "justifyContent": "center",
+                    "marginLeft": 660,
+                    "marginTop": 1000.5,
+                    "opacity": 0.8,
+                    "width": 35,
+                  }
+                }
+                testID="heart"
+              >
+                <View
+                  style={
+                    Object {
+                      "overflow": "hidden",
+                    }
+                  }
+                >
+                  <View>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "transparent",
+                          "justifyContent": "center",
+                        }
+                      }
+                    >
+                      <Text />
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </RCTScrollView>
+    </View>
+  </View>
+  <
+    snapPoints={
+      Array [
+        "15%",
+        "55%",
+      ]
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "marginHorizontal": 30,
+          }
+        }
+      >
+        <Modal
+          animationType="fade"
+          hardwareAccelerated={false}
+          transparent={true}
+          visible={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#F3603F",
+                "paddingTop": 60,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "paddingBottom": 20,
+                }
+              }
+            >
+              "rings" has been added to your wishlist.
+            </Text>
+          </View>
+        </Modal>
+        <Modal
+          animationType="fade"
+          hardwareAccelerated={false}
+          transparent={true}
+          visible={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#F3603F",
+                "paddingTop": 60,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "paddingBottom": 20,
+                }
+              }
+            >
+              "rings" has been added to your cart.
+            </Text>
+          </View>
+        </Modal>
+        <View
+          style={
+            Object {
+              "marginVertical": 25,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontFamily": "MontserratMedium",
+                  "fontSize": 18,
+                }
+              }
+            >
+              rings
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "#63B798",
+                    "borderRadius": 10,
+                    "color": "white",
+                    "overflow": "hidden",
+                    "textAlign": "center",
+                    "width": 120,
+                  }
+                }
+              >
+                1 in stock
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#F3603F",
+                  "fontFamily": "MontserratRegular",
+                  "fontSize": 22,
+                  "paddingTop": 15,
+                }
+              }
+            >
+              2.00 euro
+            </Text>
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#2E3192",
+                  "borderRadius": 5,
+                  "fontFamily": "MontserratRegular",
+                  "height": 40,
+                  "justifyContent": "center",
+                  "marginTop": 10,
+                  "opacity": 1,
+                  "width": 120,
+                }
+              }
+              testID="add"
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontFamily": "MontserratMedium",
+                    "fontSize": 18,
+                  }
+                }
+              >
+                Add
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "marginTop": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#7C7C7C",
+                "fontFamily": "RalewayRegular",
+                "fontSize": 14,
+                "letterSpacing": 0.5,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "borderBottomColor": "#E6E6E6",
+                "borderBottomWidth": 1,
+                "marginVertical": 18,
+                "width": "100%",
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#7C7C7C",
+                "fontFamily": "RalewayRegular",
+                "fontSize": 14,
+                "letterSpacing": 0.5,
+              }
+            }
+          >
+            What a Nice Day!
+          </Text>
+          <View
+            style={
+              Object {
+                "borderBottomColor": "#E6E6E6",
+                "borderBottomWidth": 1,
+                "marginVertical": 18,
+                "width": "100%",
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "fontFamily": "MontserratMedium",
+                "fontSize": 18,
+                "paddingBottom": 5,
+              }
+            }
+          >
+            Product Detail:
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#7C7C7C",
+                "fontFamily": "RalewayRegular",
+                "fontSize": 14,
+                "letterSpacing": 0.5,
+              }
+            }
+          >
+            Materials: undefined
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#7C7C7C",
+                "fontFamily": "RalewayRegular",
+                "fontSize": 14,
+                "letterSpacing": 0.5,
+              }
+            }
+          >
+            Measurements: undefined
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#7C7C7C",
+                "fontFamily": "RalewayRegular",
+                "fontSize": 14,
+                "letterSpacing": 0.5,
+              }
+            }
+          >
+            Weight: 2g
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#7C7C7C",
+                "fontFamily": "RalewayRegular",
+                "fontSize": 14,
+                "letterSpacing": 0.5,
+              }
+            }
+          >
+            Packaging: undefined
+          </Text>
+          <View
+            style={
+              Object {
+                "borderBottomColor": "#E6E6E6",
+                "borderBottomWidth": 1,
+                "marginVertical": 18,
+                "width": "100%",
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </>
+</View>
+`;
+
+exports[`Given a ProductDetail component When user.favourite.every product what is diferente than selectedproduct Then render is  to match snapshot 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "height": 1133.8999999999999,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "flex": 1,
+            "position": "relative",
+          },
+          undefined,
+        ]
+      }
+    >
+      <RCTScrollView
+        activeDotStyle={
+          Object {
+            "backgroundColor": "#F3603F",
+          }
+        }
+        automaticallyAdjustContentInsets={false}
+        autoplay={false}
+        autoplayDirection={false}
+        autoplayTimeout={2.5}
+        bounces={false}
+        contentContainerStyle={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+            },
+            undefined,
+          ]
+        }
+        contentOffset={
+          Object {
+            "y": 0,
+          }
+        }
+        disableNextButton={false}
+        disablePrevButton={false}
+        dotStyle={
+          Object {
+            "backgroundColor": "#E6E6E6",
+            "opacity": 0.4,
+          }
+        }
+        horizontal={false}
+        index={0}
+        loadMinimal={true}
+        loadMinimalSize={1}
+        loop={true}
+        onIndexChanged={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        paginationStyle={
+          Object {
+            "bottom": 6,
+          }
+        }
+        pagingEnabled={true}
+        removeClippedSubviews={false}
+        scrollsToTop={false}
+        showsButtons={false}
+        showsHorizontalScrollIndicator={false}
+        showsPagination={true}
+        showsVerticalScrollIndicator={false}
+      >
+        <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 1334,
+                  "width": 750,
+                },
+                Object {
+                  "backgroundColor": "transparent",
+                },
+              ]
+            }
+          >
+            <View
+              accessibilityIgnoresInvertColors={true}
+              style={
+                Object {
+                  "height": 1133.8999999999999,
+                  "width": 750,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "uri": "url",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "height": 1133.8999999999999,
+                      "width": 750,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFE",
+                    "borderRadius": 50,
+                    "height": 35,
+                    "justifyContent": "center",
+                    "marginLeft": 660,
+                    "marginTop": 1000.5,
+                    "opacity": 0.8,
+                    "width": 35,
+                  }
+                }
+                testID="heart"
+              >
+                <View
+                  style={
+                    Object {
+                      "overflow": "hidden",
+                    }
+                  }
+                >
+                  <View>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "transparent",
+                          "justifyContent": "center",
+                        }
+                      }
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "black",
+                              "fontSize": 20,
+                            },
+                            Object {
+                              "backgroundColor": "transparent",
+                            },
+                            Object {
+                              "fontFamily": "FontAwesome",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            Object {},
+                          ]
+                        }
+                        testID="iconIcon"
+                      >
+                        
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </RCTScrollView>
+    </View>
+  </View>
+  <
+    snapPoints={
+      Array [
+        "15%",
+        "55%",
+      ]
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "marginHorizontal": 30,
+          }
+        }
+      >
+        <Modal
+          animationType="fade"
+          hardwareAccelerated={false}
+          transparent={true}
+          visible={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#F3603F",
+                "paddingTop": 60,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "paddingBottom": 20,
+                }
+              }
+            >
+              "rings" has been added to your wishlist.
+            </Text>
+          </View>
+        </Modal>
+        <Modal
+          animationType="fade"
+          hardwareAccelerated={false}
+          transparent={true}
+          visible={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#F3603F",
+                "paddingTop": 60,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "paddingBottom": 20,
+                }
+              }
+            >
+              "rings" has been added to your cart.
+            </Text>
+          </View>
+        </Modal>
+        <View
+          style={
+            Object {
+              "marginVertical": 25,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontFamily": "MontserratMedium",
+                  "fontSize": 18,
+                }
+              }
+            >
+              rings
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "#63B798",
+                    "borderRadius": 10,
+                    "color": "white",
+                    "overflow": "hidden",
+                    "textAlign": "center",
+                    "width": 120,
+                  }
+                }
+              >
+                1 in stock
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#F3603F",
+                  "fontFamily": "MontserratRegular",
+                  "fontSize": 22,
+                  "paddingTop": 15,
+                }
+              }
+            >
+              2.00 euro
+            </Text>
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#2E3192",
+                  "borderRadius": 5,
+                  "fontFamily": "MontserratRegular",
+                  "height": 40,
+                  "justifyContent": "center",
+                  "marginTop": 10,
+                  "opacity": 1,
+                  "width": 120,
+                }
+              }
+              testID="add"
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontFamily": "MontserratMedium",
+                    "fontSize": 18,
+                  }
+                }
+              >
+                Add
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "marginTop": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#7C7C7C",
+                "fontFamily": "RalewayRegular",
+                "fontSize": 14,
+                "letterSpacing": 0.5,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "borderBottomColor": "#E6E6E6",
+                "borderBottomWidth": 1,
+                "marginVertical": 18,
+                "width": "100%",
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#7C7C7C",
+                "fontFamily": "RalewayRegular",
+                "fontSize": 14,
+                "letterSpacing": 0.5,
+              }
+            }
+          >
+            What a Nice Day!
+          </Text>
+          <View
+            style={
+              Object {
+                "borderBottomColor": "#E6E6E6",
+                "borderBottomWidth": 1,
+                "marginVertical": 18,
+                "width": "100%",
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "fontFamily": "MontserratMedium",
+                "fontSize": 18,
+                "paddingBottom": 5,
+              }
+            }
+          >
+            Product Detail:
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#7C7C7C",
+                "fontFamily": "RalewayRegular",
+                "fontSize": 14,
+                "letterSpacing": 0.5,
+              }
+            }
+          >
+            Materials: undefined
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#7C7C7C",
+                "fontFamily": "RalewayRegular",
+                "fontSize": 14,
+                "letterSpacing": 0.5,
+              }
+            }
+          >
+            Measurements: undefined
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#7C7C7C",
+                "fontFamily": "RalewayRegular",
+                "fontSize": 14,
+                "letterSpacing": 0.5,
+              }
+            }
+          >
+            Weight: 2g
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#7C7C7C",
+                "fontFamily": "RalewayRegular",
+                "fontSize": 14,
+                "letterSpacing": 0.5,
+              }
+            }
+          >
+            Packaging: undefined
+          </Text>
+          <View
+            style={
+              Object {
+                "borderBottomColor": "#E6E6E6",
+                "borderBottomWidth": 1,
+                "marginVertical": 18,
+                "width": "100%",
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </>
+</View>
+`;

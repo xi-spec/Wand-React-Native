@@ -1,0 +1,1164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a Description component When is rendered with selectedProduct.stock Then is rendered correct 1`] = `
+<View
+  style={
+    Object {
+      "marginHorizontal": 30,
+    }
+  }
+>
+  <Modal
+    animationType="fade"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={true}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F3603F",
+          "paddingTop": 60,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "paddingBottom": 20,
+          }
+        }
+      >
+        "rings" has been added to your wishlist.
+      </Text>
+    </View>
+  </Modal>
+  <Modal
+    animationType="fade"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F3603F",
+          "paddingTop": 60,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "paddingBottom": 20,
+          }
+        }
+      >
+        "rings" has been added to your cart.
+      </Text>
+    </View>
+  </Modal>
+  <View
+    style={
+      Object {
+        "marginVertical": 25,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontFamily": "MontserratMedium",
+            "fontSize": 18,
+          }
+        }
+      >
+        rings
+      </Text>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "backgroundColor": "#63B798",
+              "borderRadius": 10,
+              "color": "white",
+              "overflow": "hidden",
+              "textAlign": "center",
+              "width": 120,
+            }
+          }
+        >
+          1 in stock
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#F3603F",
+            "fontFamily": "MontserratRegular",
+            "fontSize": 22,
+            "paddingTop": 15,
+          }
+        }
+      >
+        2.00 euro
+      </Text>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2E3192",
+            "borderRadius": 5,
+            "fontFamily": "MontserratRegular",
+            "height": 40,
+            "justifyContent": "center",
+            "marginTop": 10,
+            "opacity": 1,
+            "width": 120,
+          }
+        }
+        testID="add"
+      >
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontFamily": "MontserratMedium",
+              "fontSize": 18,
+            }
+          }
+        >
+          Add
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#7C7C7C",
+          "fontFamily": "RalewayRegular",
+          "fontSize": 14,
+          "letterSpacing": 0.5,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "borderBottomColor": "#E6E6E6",
+          "borderBottomWidth": 1,
+          "marginVertical": 18,
+          "width": "100%",
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "#7C7C7C",
+          "fontFamily": "RalewayRegular",
+          "fontSize": 14,
+          "letterSpacing": 0.5,
+        }
+      }
+    >
+      What a Nice Day!
+    </Text>
+    <View
+      style={
+        Object {
+          "borderBottomColor": "#E6E6E6",
+          "borderBottomWidth": 1,
+          "marginVertical": 18,
+          "width": "100%",
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "fontFamily": "MontserratMedium",
+          "fontSize": 18,
+          "paddingBottom": 5,
+        }
+      }
+    >
+      Product Detail:
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#7C7C7C",
+          "fontFamily": "RalewayRegular",
+          "fontSize": 14,
+          "letterSpacing": 0.5,
+        }
+      }
+    >
+      Materials: undefined
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#7C7C7C",
+          "fontFamily": "RalewayRegular",
+          "fontSize": 14,
+          "letterSpacing": 0.5,
+        }
+      }
+    >
+      Measurements: undefined
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#7C7C7C",
+          "fontFamily": "RalewayRegular",
+          "fontSize": 14,
+          "letterSpacing": 0.5,
+        }
+      }
+    >
+      Weight: 2g
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#7C7C7C",
+          "fontFamily": "RalewayRegular",
+          "fontSize": 14,
+          "letterSpacing": 0.5,
+        }
+      }
+    >
+      Packaging: undefined
+    </Text>
+    <View
+      style={
+        Object {
+          "borderBottomColor": "#E6E6E6",
+          "borderBottomWidth": 1,
+          "marginVertical": 18,
+          "width": "100%",
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`Given a Description component When is rendered with the selectedProduct.motto = hello Then is rendered correct 1`] = `
+<View
+  style={
+    Object {
+      "marginHorizontal": 30,
+    }
+  }
+>
+  <Modal
+    animationType="fade"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={true}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F3603F",
+          "paddingTop": 60,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "paddingBottom": 20,
+          }
+        }
+      >
+        "rings" has been added to your wishlist.
+      </Text>
+    </View>
+  </Modal>
+  <Modal
+    animationType="fade"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F3603F",
+          "paddingTop": 60,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "paddingBottom": 20,
+          }
+        }
+      >
+        "rings" has been added to your cart.
+      </Text>
+    </View>
+  </Modal>
+  <View
+    style={
+      Object {
+        "marginVertical": 25,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontFamily": "MontserratMedium",
+            "fontSize": 18,
+          }
+        }
+      >
+        rings
+      </Text>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "backgroundColor": "#63B798",
+              "borderRadius": 10,
+              "color": "white",
+              "overflow": "hidden",
+              "textAlign": "center",
+              "width": 120,
+            }
+          }
+        >
+          1 in stock
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#F3603F",
+            "fontFamily": "MontserratRegular",
+            "fontSize": 22,
+            "paddingTop": 15,
+          }
+        }
+      >
+        2.00 euro
+      </Text>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2E3192",
+            "borderRadius": 5,
+            "fontFamily": "MontserratRegular",
+            "height": 40,
+            "justifyContent": "center",
+            "marginTop": 10,
+            "opacity": 1,
+            "width": 120,
+          }
+        }
+        testID="add"
+      >
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontFamily": "MontserratMedium",
+              "fontSize": 18,
+            }
+          }
+        >
+          Add
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#7C7C7C",
+          "fontFamily": "RalewayRegular",
+          "fontSize": 14,
+          "letterSpacing": 0.5,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "borderBottomColor": "#E6E6E6",
+          "borderBottomWidth": 1,
+          "marginVertical": 18,
+          "width": "100%",
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "#7C7C7C",
+          "fontFamily": "RalewayRegular",
+          "fontSize": 14,
+          "letterSpacing": 0.5,
+        }
+      }
+    >
+      hello
+    </Text>
+    <View
+      style={
+        Object {
+          "borderBottomColor": "#E6E6E6",
+          "borderBottomWidth": 1,
+          "marginVertical": 18,
+          "width": "100%",
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "fontFamily": "MontserratMedium",
+          "fontSize": 18,
+          "paddingBottom": 5,
+        }
+      }
+    >
+      Product Detail:
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#7C7C7C",
+          "fontFamily": "RalewayRegular",
+          "fontSize": 14,
+          "letterSpacing": 0.5,
+        }
+      }
+    >
+      Materials: undefined
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#7C7C7C",
+          "fontFamily": "RalewayRegular",
+          "fontSize": 14,
+          "letterSpacing": 0.5,
+        }
+      }
+    >
+      Measurements: undefined
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#7C7C7C",
+          "fontFamily": "RalewayRegular",
+          "fontSize": 14,
+          "letterSpacing": 0.5,
+        }
+      }
+    >
+      Weight: 2g
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#7C7C7C",
+          "fontFamily": "RalewayRegular",
+          "fontSize": 14,
+          "letterSpacing": 0.5,
+        }
+      }
+    >
+      Packaging: undefined
+    </Text>
+    <View
+      style={
+        Object {
+          "borderBottomColor": "#E6E6E6",
+          "borderBottomWidth": 1,
+          "marginVertical": 18,
+          "width": "100%",
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`Given a Description component When is rendered without selectedProduct.stock Then is rendered correct 1`] = `
+<View
+  style={
+    Object {
+      "marginHorizontal": 30,
+    }
+  }
+>
+  <Modal
+    animationType="fade"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={true}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F3603F",
+          "paddingTop": 60,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "paddingBottom": 20,
+          }
+        }
+      >
+        "rings" has been added to your wishlist.
+      </Text>
+    </View>
+  </Modal>
+  <Modal
+    animationType="fade"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F3603F",
+          "paddingTop": 60,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "paddingBottom": 20,
+          }
+        }
+      >
+        "rings" has been added to your cart.
+      </Text>
+    </View>
+  </Modal>
+  <View
+    style={
+      Object {
+        "marginVertical": 25,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontFamily": "MontserratMedium",
+            "fontSize": 18,
+          }
+        }
+      >
+        rings
+      </Text>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "backgroundColor": "#F3603F",
+              "borderRadius": 10,
+              "color": "white",
+              "overflow": "hidden",
+              "textAlign": "center",
+              "width": 120,
+            }
+          }
+        >
+          Out of stock
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#F3603F",
+            "fontFamily": "MontserratRegular",
+            "fontSize": 22,
+            "paddingTop": 15,
+          }
+        }
+      >
+        2.00 euro
+      </Text>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#E6E6E6",
+            "borderRadius": 5,
+            "height": 40,
+            "justifyContent": "center",
+            "marginTop": 10,
+            "opacity": 1,
+            "width": 120,
+          }
+        }
+        testID="add"
+      >
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontFamily": "MontserratMedium",
+              "fontSize": 18,
+            }
+          }
+        >
+          Add
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#7C7C7C",
+          "fontFamily": "RalewayRegular",
+          "fontSize": 14,
+          "letterSpacing": 0.5,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "borderBottomColor": "#E6E6E6",
+          "borderBottomWidth": 1,
+          "marginVertical": 18,
+          "width": "100%",
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "#7C7C7C",
+          "fontFamily": "RalewayRegular",
+          "fontSize": 14,
+          "letterSpacing": 0.5,
+        }
+      }
+    >
+      What a Nice Day!
+    </Text>
+    <View
+      style={
+        Object {
+          "borderBottomColor": "#E6E6E6",
+          "borderBottomWidth": 1,
+          "marginVertical": 18,
+          "width": "100%",
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "fontFamily": "MontserratMedium",
+          "fontSize": 18,
+          "paddingBottom": 5,
+        }
+      }
+    >
+      Product Detail:
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#7C7C7C",
+          "fontFamily": "RalewayRegular",
+          "fontSize": 14,
+          "letterSpacing": 0.5,
+        }
+      }
+    >
+      Materials: undefined
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#7C7C7C",
+          "fontFamily": "RalewayRegular",
+          "fontSize": 14,
+          "letterSpacing": 0.5,
+        }
+      }
+    >
+      Measurements: undefined
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#7C7C7C",
+          "fontFamily": "RalewayRegular",
+          "fontSize": 14,
+          "letterSpacing": 0.5,
+        }
+      }
+    >
+      Weight: 2g
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#7C7C7C",
+          "fontFamily": "RalewayRegular",
+          "fontSize": 14,
+          "letterSpacing": 0.5,
+        }
+      }
+    >
+      Packaging: undefined
+    </Text>
+    <View
+      style={
+        Object {
+          "borderBottomColor": "#E6E6E6",
+          "borderBottomWidth": 1,
+          "marginVertical": 18,
+          "width": "100%",
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`Given a Description component When the add button is pressed Then Description component is to match snapshoot 1`] = `
+<View
+  style={
+    Object {
+      "marginHorizontal": 30,
+    }
+  }
+>
+  <Modal
+    animationType="fade"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={true}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F3603F",
+          "paddingTop": 60,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "paddingBottom": 20,
+          }
+        }
+      >
+        "rings" has been added to your wishlist.
+      </Text>
+    </View>
+  </Modal>
+  <Modal
+    animationType="fade"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F3603F",
+          "paddingTop": 60,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "paddingBottom": 20,
+          }
+        }
+      >
+        "rings" has been added to your cart.
+      </Text>
+    </View>
+  </Modal>
+  <View
+    style={
+      Object {
+        "marginVertical": 25,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontFamily": "MontserratMedium",
+            "fontSize": 18,
+          }
+        }
+      >
+        rings
+      </Text>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "backgroundColor": "#63B798",
+              "borderRadius": 10,
+              "color": "white",
+              "overflow": "hidden",
+              "textAlign": "center",
+              "width": 120,
+            }
+          }
+        >
+          1 in stock
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#F3603F",
+            "fontFamily": "MontserratRegular",
+            "fontSize": 22,
+            "paddingTop": 15,
+          }
+        }
+      >
+        2.00 euro
+      </Text>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2E3192",
+            "borderRadius": 5,
+            "fontFamily": "MontserratRegular",
+            "height": 40,
+            "justifyContent": "center",
+            "marginTop": 10,
+            "opacity": 1,
+            "width": 120,
+          }
+        }
+        testID="add"
+      >
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontFamily": "MontserratMedium",
+              "fontSize": 18,
+            }
+          }
+        >
+          Add
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#7C7C7C",
+          "fontFamily": "RalewayRegular",
+          "fontSize": 14,
+          "letterSpacing": 0.5,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "borderBottomColor": "#E6E6E6",
+          "borderBottomWidth": 1,
+          "marginVertical": 18,
+          "width": "100%",
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "#7C7C7C",
+          "fontFamily": "RalewayRegular",
+          "fontSize": 14,
+          "letterSpacing": 0.5,
+        }
+      }
+    >
+      What a Nice Day!
+    </Text>
+    <View
+      style={
+        Object {
+          "borderBottomColor": "#E6E6E6",
+          "borderBottomWidth": 1,
+          "marginVertical": 18,
+          "width": "100%",
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "fontFamily": "MontserratMedium",
+          "fontSize": 18,
+          "paddingBottom": 5,
+        }
+      }
+    >
+      Product Detail:
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#7C7C7C",
+          "fontFamily": "RalewayRegular",
+          "fontSize": 14,
+          "letterSpacing": 0.5,
+        }
+      }
+    >
+      Materials: undefined
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#7C7C7C",
+          "fontFamily": "RalewayRegular",
+          "fontSize": 14,
+          "letterSpacing": 0.5,
+        }
+      }
+    >
+      Measurements: undefined
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#7C7C7C",
+          "fontFamily": "RalewayRegular",
+          "fontSize": 14,
+          "letterSpacing": 0.5,
+        }
+      }
+    >
+      Weight: 2g
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#7C7C7C",
+          "fontFamily": "RalewayRegular",
+          "fontSize": 14,
+          "letterSpacing": 0.5,
+        }
+      }
+    >
+      Packaging: undefined
+    </Text>
+    <View
+      style={
+        Object {
+          "borderBottomColor": "#E6E6E6",
+          "borderBottomWidth": 1,
+          "marginVertical": 18,
+          "width": "100%",
+        }
+      }
+    />
+  </View>
+</View>
+`;

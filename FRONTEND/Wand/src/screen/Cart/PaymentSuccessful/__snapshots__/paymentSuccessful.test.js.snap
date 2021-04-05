@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a PaymentSuccessful component When is rendered Then is matched to snapshop 1`] = `
+Array [
+  " ",
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "height": "100%",
+          "margin": 10,
+        },
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-around",
+          "padding": 10,
+        },
+      ]
+    }
+  >
+    <ActivityIndicator
+      animating={true}
+      color="#999999"
+      hidesWhenStopped={true}
+      size="large"
+    />
+  </View>,
+]
+`;
+
+exports[`Given a PaymentSuccessful component When is rendered with empty cart Then is matched to snapshop 1`] = `
+Array [
+  " ",
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "height": "100%",
+        "margin": 10,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": "https://trello-attachments.s3.amazonaws.com/603be1b68ce9c654d30ae543/60465ae34c9420729026f19a/6e3717ef3a70d152203546808095dd3f/Captura_de_pantalla_2021-03-23_a_las_14.18.07.png",
+        }
+      }
+      style={
+        Object {
+          "height": 250,
+          "marginBottom": "10%",
+          "marginTop": "20%",
+          "width": 250,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "fontFamily": "MontserratMedium",
+          "fontSize": 22,
+        }
+      }
+    >
+      Your Order has been accepted
+    </Text>
+    <View
+      style={
+        Object {
+          "marginTop": "10%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontFamily": "RalewayExtraLight",
+            "fontSize": 18,
+          }
+        }
+      >
+        Your items has been placed and is on
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontFamily": "RalewayExtraLight",
+            "fontSize": 18,
+          }
+        }
+      >
+        it’s way to being processed.
+      </Text>
+    </View>
+    <Text
+      style={
+        Object {
+          "fontFamily": "RalewayExtraLight",
+          "fontSize": 18,
+          "marginTop": "10%",
+        }
+      }
+    >
+      Thanks!!
+    </Text>
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+          "bottom": 25,
+          "height": 40,
+          "position": "absolute",
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2E3192",
+            "borderRadius": 5,
+            "height": 50,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "100%",
+          }
+        }
+        testID="continueShopping"
+      >
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontFamily": "RalewayRegular",
+              "fontSize": 18,
+            }
+          }
+        >
+          CONTINUE SHOPPING
+        </Text>
+      </View>
+    </View>
+  </View>,
+]
+`;

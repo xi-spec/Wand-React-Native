@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a OrderHistory component When is render Then is rendered correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": 5,
+        "elevation": 5,
+        "height": "15%",
+        "justifyContent": "center",
+        "marginVertical": 10,
+        "shadowColor": "grey",
+        "shadowOffset": Object {
+          "height": 2,
+          "width": 0,
+        },
+        "shadowOpacity": 0.15,
+        "shadowRadius": 3.84,
+        "width": "90%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontFamily": "MontserratMedium",
+            "fontSize": 16,
+            "marginHorizontal": 20,
+          }
+        }
+      >
+        Order id:
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontFamily": "MontserratRegular",
+            "fontSize": 14,
+          }
+        }
+      >
+        1
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontFamily": "MontserratMedium",
+            "fontSize": 16,
+            "marginHorizontal": 20,
+          }
+        }
+      >
+        Date:
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontFamily": "MontserratRegular",
+            "fontSize": 14,
+            "marginLeft": 30,
+          }
+        }
+      >
+        222222-TTTT
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontFamily": "MontserratMedium",
+            "fontSize": 16,
+            "marginHorizontal": 20,
+          }
+        }
+      >
+        Total item:
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontFamily": "MontserratRegular",
+            "fontSize": 14,
+          }
+        }
+      >
+        1
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontFamily": "MontserratMedium",
+            "fontSize": 16,
+            "marginHorizontal": 20,
+          }
+        }
+      >
+        Total cost:
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontFamily": "MontserratRegular",
+            "fontSize": 14,
+          }
+        }
+      >
+        1.00 euros
+      </Text>
+    </View>
+  </View>
+</View>
+`;

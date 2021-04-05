@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a ProductsList component When is invoked Then it is renders correctly 1`] = `
+<RCTScrollView
+  bounces={false}
+  contentContainerStyle={
+    Object {
+      "margin": 10,
+      "paddingTop": 10,
+    }
+  }
+  data={
+    Array [
+      Object {
+        "cost": Object {
+          "currency": "euro",
+          "value": 2,
+        },
+        "images": Object {
+          "alls": Array [
+            "url",
+          ],
+        },
+        "name": "be happy 1",
+      },
+    ]
+  }
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  showsVerticalScrollIndicator={false}
+  stickyHeaderIndices={Array []}
+  updateCellsBatchingPeriod={50}
+  viewabilityConfigCallbackPairs={Array []}
+  windowSize={21}
+>
+  <View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "margin": 5,
+              "opacity": 1,
+              "paddingBottom": 15,
+            }
+          }
+          testID="productsList"
+        >
+          <Image
+            source={
+              Object {
+                "uri": "url",
+              }
+            }
+            style={
+              Object {
+                "borderRadius": 5,
+                "height": 280,
+                "justifyContent": "center",
+                "marginBottom": 10,
+                "width": 190,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "fontFamily": "RalewayLight",
+                "fontSize": 14,
+                "marginBottom": 5,
+              }
+            }
+          >
+            be happy 1
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#F3603F",
+                "fontFamily": "MontserratRegular",
+                "fontSize": 14,
+              }
+            }
+          >
+            2.00 euro
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

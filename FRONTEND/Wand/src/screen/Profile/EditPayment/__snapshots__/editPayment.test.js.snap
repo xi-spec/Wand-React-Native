@@ -1,0 +1,1047 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a EditPayment component When apply button is pressed Then is rendered correct when cardNumber is incorrect 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "margin": 20,
+    }
+  }
+  keyboardShouldPersistTaps="handled"
+>
+  <View>
+    <View>
+      <View
+        style={
+          Object {
+            "borderRadius": 5,
+            "height": 40,
+            "marginBottom": 40,
+            "marginTop": 10,
+            "paddingHorizontal": 10,
+            "width": 350,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#86939e",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Card number
+        </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomWidth": 1,
+              "borderColor": "#86939e",
+              "flexDirection": "row",
+              "transform": Array [
+                Object {
+                  "translateX": 0,
+                },
+              ],
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            editable={true}
+            keyboardType="numeric"
+            onChangeText={[Function]}
+            placeholder="Card number"
+            placeholderTextColor="#86939e"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "alignSelf": "center",
+                "color": "#242424",
+                "flex": 1,
+                "fontSize": 18,
+                "minHeight": 40,
+              }
+            }
+            testID="RNE__Input__text-input"
+            underlineColorAndroid="transparent"
+            value="123456789"
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#ff190c",
+              "fontSize": 12,
+              "margin": 5,
+            }
+          }
+        />
+      </View>
+      <Text
+        forwardedRef={[Function]}
+        style={
+          Object {
+            "color": "red",
+            "marginLeft": 10,
+            "opacity": 0,
+            "position": "absolute",
+            "top": 70,
+            "transform": Array [
+              Object {
+                "translateX": -100,
+              },
+            ],
+          }
+        }
+      >
+         Please enter a valid card numbers 
+      </Text>
+      <View
+        style={
+          Object {
+            "borderRadius": 5,
+            "height": 40,
+            "marginBottom": 40,
+            "marginTop": 10,
+            "paddingHorizontal": 10,
+            "width": 350,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#86939e",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Security code
+        </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomWidth": 1,
+              "borderColor": "#86939e",
+              "flexDirection": "row",
+              "transform": Array [
+                Object {
+                  "translateX": 0,
+                },
+              ],
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            editable={true}
+            keyboardType="numeric"
+            maxLength={3}
+            onChangeText={[Function]}
+            placeholder="security code"
+            placeholderTextColor="#86939e"
+            rejectResponderTermination={true}
+            secureTextEntry={true}
+            style={
+              Object {
+                "alignSelf": "center",
+                "color": "#242424",
+                "flex": 1,
+                "fontSize": 18,
+                "minHeight": 40,
+              }
+            }
+            testID="RNE__Input__text-input"
+            underlineColorAndroid="transparent"
+            value="hello"
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#ff190c",
+              "fontSize": 12,
+              "margin": 5,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "borderRadius": 5,
+            "height": 40,
+            "marginBottom": 40,
+            "marginTop": 10,
+            "paddingHorizontal": 10,
+            "width": 350,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#86939e",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Cardholder name
+        </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomWidth": 1,
+              "borderColor": "#86939e",
+              "flexDirection": "row",
+              "transform": Array [
+                Object {
+                  "translateX": 0,
+                },
+              ],
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            editable={true}
+            onChangeText={[Function]}
+            placeholder="cardholder name"
+            placeholderTextColor="#86939e"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "alignSelf": "center",
+                "color": "#242424",
+                "flex": 1,
+                "fontSize": 18,
+                "minHeight": 40,
+              }
+            }
+            testID="RNE__Input__text-input"
+            underlineColorAndroid="transparent"
+            value="hello"
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#ff190c",
+              "fontSize": 12,
+              "margin": 5,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "borderRadius": 5,
+            "height": 40,
+            "marginBottom": 40,
+            "marginTop": 10,
+            "paddingHorizontal": 10,
+            "width": 350,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#86939e",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Expiry date 
+        </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomWidth": 1,
+              "borderColor": "#86939e",
+              "flexDirection": "row",
+              "transform": Array [
+                Object {
+                  "translateX": 0,
+                },
+              ],
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            editable={true}
+            onChangeText={[Function]}
+            placeholder="dd/mm/yy"
+            placeholderTextColor="#86939e"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "alignSelf": "center",
+                "color": "#242424",
+                "flex": 1,
+                "fontSize": 18,
+                "minHeight": 40,
+              }
+            }
+            testID="RNE__Input__text-input"
+            underlineColorAndroid="transparent"
+            value="hello"
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#ff190c",
+              "fontSize": 12,
+              "margin": 5,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+          "bottom": 20,
+          "height": 30,
+          "position": "absolute",
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2E3192",
+            "borderRadius": 5,
+            "height": 50,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "100%",
+          }
+        }
+        testID="apply"
+      >
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontFamily": "RalewayRegular",
+              "fontSize": 18,
+            }
+          }
+        >
+          APPLY
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`Given a EditPayment component When is render Then is mathced to snapshot 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "margin": 20,
+    }
+  }
+  keyboardShouldPersistTaps="handled"
+>
+  <View>
+    <View>
+      <View
+        style={
+          Object {
+            "borderRadius": 5,
+            "height": 40,
+            "marginBottom": 40,
+            "marginTop": 10,
+            "paddingHorizontal": 10,
+            "width": 350,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#86939e",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Card number
+        </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomWidth": 1,
+              "borderColor": "#86939e",
+              "flexDirection": "row",
+              "transform": Array [
+                Object {
+                  "translateX": 0,
+                },
+              ],
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            editable={true}
+            keyboardType="numeric"
+            onChangeText={[Function]}
+            placeholder="Card number"
+            placeholderTextColor="#86939e"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "alignSelf": "center",
+                "color": "#242424",
+                "flex": 1,
+                "fontSize": 18,
+                "minHeight": 40,
+              }
+            }
+            testID="RNE__Input__text-input"
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#ff190c",
+              "fontSize": 12,
+              "margin": 5,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "borderRadius": 5,
+            "height": 40,
+            "marginBottom": 40,
+            "marginTop": 10,
+            "paddingHorizontal": 10,
+            "width": 350,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#86939e",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Security code
+        </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomWidth": 1,
+              "borderColor": "#86939e",
+              "flexDirection": "row",
+              "transform": Array [
+                Object {
+                  "translateX": 0,
+                },
+              ],
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            editable={true}
+            keyboardType="numeric"
+            maxLength={3}
+            onChangeText={[Function]}
+            placeholder="security code"
+            placeholderTextColor="#86939e"
+            rejectResponderTermination={true}
+            secureTextEntry={true}
+            style={
+              Object {
+                "alignSelf": "center",
+                "color": "#242424",
+                "flex": 1,
+                "fontSize": 18,
+                "minHeight": 40,
+              }
+            }
+            testID="RNE__Input__text-input"
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#ff190c",
+              "fontSize": 12,
+              "margin": 5,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "borderRadius": 5,
+            "height": 40,
+            "marginBottom": 40,
+            "marginTop": 10,
+            "paddingHorizontal": 10,
+            "width": 350,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#86939e",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Cardholder name
+        </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomWidth": 1,
+              "borderColor": "#86939e",
+              "flexDirection": "row",
+              "transform": Array [
+                Object {
+                  "translateX": 0,
+                },
+              ],
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            editable={true}
+            onChangeText={[Function]}
+            placeholder="cardholder name"
+            placeholderTextColor="#86939e"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "alignSelf": "center",
+                "color": "#242424",
+                "flex": 1,
+                "fontSize": 18,
+                "minHeight": 40,
+              }
+            }
+            testID="RNE__Input__text-input"
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#ff190c",
+              "fontSize": 12,
+              "margin": 5,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "borderRadius": 5,
+            "height": 40,
+            "marginBottom": 40,
+            "marginTop": 10,
+            "paddingHorizontal": 10,
+            "width": 350,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#86939e",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Expiry date 
+        </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomWidth": 1,
+              "borderColor": "#86939e",
+              "flexDirection": "row",
+              "transform": Array [
+                Object {
+                  "translateX": 0,
+                },
+              ],
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            editable={true}
+            onChangeText={[Function]}
+            placeholder="dd/mm/yy"
+            placeholderTextColor="#86939e"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "alignSelf": "center",
+                "color": "#242424",
+                "flex": 1,
+                "fontSize": 18,
+                "minHeight": 40,
+              }
+            }
+            testID="RNE__Input__text-input"
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#ff190c",
+              "fontSize": 12,
+              "margin": 5,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+          "bottom": 20,
+          "height": 30,
+          "position": "absolute",
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2E3192",
+            "borderRadius": 5,
+            "height": 50,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "100%",
+          }
+        }
+        testID="apply"
+      >
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontFamily": "RalewayRegular",
+              "fontSize": 18,
+            }
+          }
+        >
+          APPLY
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`Given a EditPayment component When is render Then is mathced to snapshot when hasnt user.card 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "margin": 20,
+    }
+  }
+  keyboardShouldPersistTaps="handled"
+>
+  <View>
+    <View>
+      <View
+        style={
+          Object {
+            "borderRadius": 5,
+            "height": 40,
+            "marginBottom": 40,
+            "marginTop": 10,
+            "paddingHorizontal": 10,
+            "width": 350,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#86939e",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Card number
+        </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomWidth": 1,
+              "borderColor": "#86939e",
+              "flexDirection": "row",
+              "transform": Array [
+                Object {
+                  "translateX": 0,
+                },
+              ],
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            editable={true}
+            keyboardType="numeric"
+            onChangeText={[Function]}
+            placeholder="Card number"
+            placeholderTextColor="#86939e"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "alignSelf": "center",
+                "color": "#242424",
+                "flex": 1,
+                "fontSize": 18,
+                "minHeight": 40,
+              }
+            }
+            testID="RNE__Input__text-input"
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#ff190c",
+              "fontSize": 12,
+              "margin": 5,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "borderRadius": 5,
+            "height": 40,
+            "marginBottom": 40,
+            "marginTop": 10,
+            "paddingHorizontal": 10,
+            "width": 350,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#86939e",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Security code
+        </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomWidth": 1,
+              "borderColor": "#86939e",
+              "flexDirection": "row",
+              "transform": Array [
+                Object {
+                  "translateX": 0,
+                },
+              ],
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            editable={true}
+            keyboardType="numeric"
+            maxLength={3}
+            onChangeText={[Function]}
+            placeholder="security code"
+            placeholderTextColor="#86939e"
+            rejectResponderTermination={true}
+            secureTextEntry={true}
+            style={
+              Object {
+                "alignSelf": "center",
+                "color": "#242424",
+                "flex": 1,
+                "fontSize": 18,
+                "minHeight": 40,
+              }
+            }
+            testID="RNE__Input__text-input"
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#ff190c",
+              "fontSize": 12,
+              "margin": 5,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "borderRadius": 5,
+            "height": 40,
+            "marginBottom": 40,
+            "marginTop": 10,
+            "paddingHorizontal": 10,
+            "width": 350,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#86939e",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Cardholder name
+        </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomWidth": 1,
+              "borderColor": "#86939e",
+              "flexDirection": "row",
+              "transform": Array [
+                Object {
+                  "translateX": 0,
+                },
+              ],
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            editable={true}
+            onChangeText={[Function]}
+            placeholder="cardholder name"
+            placeholderTextColor="#86939e"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "alignSelf": "center",
+                "color": "#242424",
+                "flex": 1,
+                "fontSize": 18,
+                "minHeight": 40,
+              }
+            }
+            testID="RNE__Input__text-input"
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#ff190c",
+              "fontSize": 12,
+              "margin": 5,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "borderRadius": 5,
+            "height": 40,
+            "marginBottom": 40,
+            "marginTop": 10,
+            "paddingHorizontal": 10,
+            "width": 350,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#86939e",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Expiry date 
+        </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomWidth": 1,
+              "borderColor": "#86939e",
+              "flexDirection": "row",
+              "transform": Array [
+                Object {
+                  "translateX": 0,
+                },
+              ],
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            editable={true}
+            onChangeText={[Function]}
+            placeholder="dd/mm/yy"
+            placeholderTextColor="#86939e"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "alignSelf": "center",
+                "color": "#242424",
+                "flex": 1,
+                "fontSize": 18,
+                "minHeight": 40,
+              }
+            }
+            testID="RNE__Input__text-input"
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#ff190c",
+              "fontSize": 12,
+              "margin": 5,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+          "bottom": 20,
+          "height": 30,
+          "position": "absolute",
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2E3192",
+            "borderRadius": 5,
+            "height": 50,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "100%",
+          }
+        }
+        testID="apply"
+      >
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontFamily": "RalewayRegular",
+              "fontSize": 18,
+            }
+          }
+        >
+          APPLY
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

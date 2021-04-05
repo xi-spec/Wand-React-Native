@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a NotLogged component When is rendered Then is matched to snapshop 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontFamily": "RalewayRegular",
+        "fontSize": 18,
+        "marginVertical": 20,
+      }
+    }
+  >
+    I alredy have a user account
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#2E3192",
+        "borderRadius": 5,
+        "height": 50,
+        "justifyContent": "center",
+        "marginVertical": 20,
+        "opacity": 1,
+        "width": "80%",
+      }
+    }
+    testID="login"
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontFamily": "MontserratRegular",
+          "fontSize": 20,
+        }
+      }
+    >
+      LOG IN
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "borderBottomColor": "#E6E6E6",
+        "borderBottomWidth": 1,
+        "marginLeft": 5,
+        "marginRight": 5,
+        "width": "80%",
+      }
+    }
+  />
+  <Text
+    style={
+      Object {
+        "fontFamily": "RalewayRegular",
+        "fontSize": 18,
+        "marginVertical": 20,
+      }
+    }
+  >
+    New user
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#2E3192",
+        "borderRadius": 5,
+        "height": 50,
+        "justifyContent": "center",
+        "marginVertical": 20,
+        "opacity": 1,
+        "width": "80%",
+      }
+    }
+    testID="register"
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontFamily": "MontserratRegular",
+          "fontSize": 20,
+        }
+      }
+    >
+      REGISTER
+    </Text>
+  </View>
+</View>
+`;
