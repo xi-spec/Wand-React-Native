@@ -1,9 +1,32 @@
 # Wand
-Wand Ecommerce App done with:
+
+A Full-stack ecommerce app.
+
+# To run the project (scripts)
+
+The scripts you can run with npm and expo (or yarn) are:
+
+ - expo start (to start the front-end)
+ - npm start (to start the back-end)
+ - npm test (to see unit & component tests)
+
+
+# Tech Stack & Libraries
 - React Native
 - Redux
 - Mongoose
 - Express
 - Passport
 - Typescript
-- Jest
+
+# Unit & Component testing:
+ - Jest (More than 50 tests)
+ - You can run the tests with npm test
+
+# Other Libraries & Tools:
+- EsLint (for good pratices & code styling)
+- Axios
+- react-router-dom
+
+
+
