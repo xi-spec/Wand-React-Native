@@ -20,7 +20,7 @@ The scripts you can run with npm and expo (or yarn) are:
 - Typescript
 
 # Unit & Component testing:
- - Jest (More than 50 tests)
+ - Jest 
  - You can run the tests with npm test
 
 # Other Libraries & Tools:
