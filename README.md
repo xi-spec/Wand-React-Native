@@ -3,6 +3,7 @@
 A Full-stack ecommerce app.
 
 # To run the project (scripts)
+After you clone the project go inside each folder [FRONTEND/Wand, BACKEND] and run the command npm install on both.
 
 The scripts you can run with npm and expo (or yarn) are:
 
