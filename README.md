@@ -1,6 +1,7 @@
 # Wand
 
-A Full-stack ecommerce app.
+
+During my last 3 weeks at Skylab Coders Academy I made this Full-stack ecommerce app.
 
 # To run the project (scripts)
 After you clone the project go inside each folder [FRONTEND/Wand, BACKEND] and run the command npm install on both.
